@@ -1,0 +1,7 @@
+FROM docker/dev-environments-default:stable-1 AS builder
+
+
+FROM node:16
+
+
+ENTRYPOINT [ "/bin/bash" ]
